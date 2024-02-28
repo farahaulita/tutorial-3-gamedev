@@ -18,10 +18,6 @@ position = Vector2( 225.95, 294.562 )
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 99, 219 )
 
-[node name="Timer" type="Timer" parent="Player"]
-
-[node name="Timer2" type="Timer" parent="Player"]
-
 [node name="ResetArea" type="Area2D" parent="."]
 script = ExtResource( 3 )
 
