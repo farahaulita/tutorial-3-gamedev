@@ -20,11 +20,6 @@ region = Rect2( 256, 1280, 128, 128 )
 
 [sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [  ],
-"loop": true,
-"name": "New Anim",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 2 ), SubResource( 3 ) ],
 "loop": true,
 "name": "default",
@@ -42,6 +37,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.2, 0.2 )
 frames = SubResource( 4 )
+frame = 1
 playing = true
 
 [node name="sfx" type="AudioStreamPlayer2D" parent="."]
@@ -51,5 +47,6 @@ stream = ExtResource( 3 )
 stream = ExtResource( 4 )
 autoplay = true
 max_distance = 500.0
+attenuation = 1.51572
 
 [connection signal="body_entered" from="." to="." method="_on_Fly_body_entered"]
