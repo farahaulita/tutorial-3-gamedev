@@ -30,6 +30,7 @@ polygon = PoolVector2Array( -24, 2, -130, 2, -157, 734, 1125, 722, 1112, 4, 1071
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 4 )
 volume_db = -12.086
+autoplay = true
 
 [node name="Fly" parent="." instance=ExtResource( 5 )]
 position = Vector2( 312, 194 )
