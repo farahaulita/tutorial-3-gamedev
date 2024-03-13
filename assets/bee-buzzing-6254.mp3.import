@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bee-buzzing-6254.mp3-8f18e84fcbe34a99189709eca5d5046c.mp3str"
+
+[deps]
+
+source_file="res://assets/bee-buzzing-6254.mp3"
+dest_files=[ "res://.import/bee-buzzing-6254.mp3-8f18e84fcbe34a99189709eca5d5046c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
